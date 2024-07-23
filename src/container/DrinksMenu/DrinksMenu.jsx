@@ -3,6 +3,7 @@ import React from 'react';
 import { SubHeading, MenuItem } from '../../components';
 import { data, images } from '../../constants';
 import './DrinksMenu.css';
+import { Link } from 'react-router-dom';
 
 const DrinksMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
@@ -33,6 +34,12 @@ const DrinksMenu = () => (
         </div>
       </div>
     </div>
+    <div className="add-menu">
+      {/* <a className='custom__button' href="/menu">Order Now</a>    */}
+    <Link to='/menulist'>
+        <span className='custom__button'>Order Now</span>
+    </Link>
+      </div>
   </div>
 );
 

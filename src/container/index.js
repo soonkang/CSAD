@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import DrinksMenu from './DrinksMenu/DrinksMenu';
 import FoodMenu from './FoodMenu/FoodMenu';
+import Footer from './Footer/Footer';
 
 export {
   AboutUs,
@@ -20,4 +21,5 @@ export {
   Laurels,
   DrinksMenu,
   FoodMenu,
+  Footer,
 };
